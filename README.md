@@ -45,7 +45,7 @@ Make sure you are using Google Chrome with the Metamask extension configured to 
 ## Usage
 ### Create a prediction
 1. Click "Create a New Prediction" on the bottom of the list, or click "Make Bet" at the top
-2. Enter a statement, resolution date, and withdrawl period. You can type anything into the statement and use the defaults for the other two, then click "Create Prediction"
+2. Enter a statement, resolution date, and withdrawl period. You can type anything into the statement and use the defaults for the other two, then click "Create Prediction". Note that the "Explore Contract" links will only work when interacting with contracts on Rinkeby, not Ganache.
 
 ### Bet on a prediction
 1. Click "View Bets" at the top and select the new prediction you just created.
