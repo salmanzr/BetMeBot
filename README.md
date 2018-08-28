@@ -7,39 +7,39 @@ determined by voters, predictions no longer need to be resolved by an individual
 
 ## Setup
 
-1. Download source code:
+Download source code:
 
 ```git clone https://github.com/salmanzr/betmebot```
 
-2. Install packages:
+Install packages:
 
 ```npm install```
 
-3. Compile Smart Contracts:
+Compile Smart Contracts:
 
 ```truffle compile```
 
-4. Start Ganache or use Ganache-CLI:
+Start Ganache or use Ganache-CLI:
 
 ```ganache-cli```
 
-5. Run Tests:
+Run Tests:
 
 ```truffle test```
 
-6. Close and re-open Ganache
+Close and re-open Ganache
 
-7. Deploy Smart Contracts:
+Deploy Smart Contracts:
 
 ```truffle migrate```
 After migration, look at the end in the console log for the address of the PredictionMarket contract. It will look like this "PredictionMarket: 0xb726b385d13e298250f035303f9c17fb3430db4c".
 Copy this address and paste it into line 16 of [constants.js](https://github.com/salmanzr/betmebot/master/src/constants.js) for the Ganache network.
 
-8.Build the app:
+Build the app:
 
 ```npm run build```
 
-9. Start UI server:
+Start UI server:
 
 ```npm run start```
 The front-end app should start at http://localhost:3000
