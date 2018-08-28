@@ -80,4 +80,4 @@ Make sure you are using Google Chrome with the Metamask extension configured to 
 
 ### Send me donations
 
-1. If you enjoyed this dapp and want to fund my next ones, then feel free to send me Eth at [betmebot.atethereum.eth](https://etherscan.io/enslookup?q=betmebot.atethereum.eth), as linked at the bottom of the page. Hope you enjoyed!
+1. If you enjoyed this dapp and want to fund my next ones, then feel free to send me Eth at [betmebot.atethereum.eth](https://etherscan.io/enslookup?q=betmebot.atethereum.eth), as linked at the bottom of the dapp. Hope you enjoyed!
