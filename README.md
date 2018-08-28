@@ -33,7 +33,7 @@ Deploy Smart Contracts:
 
 ```truffle migrate```
 After migration, look at the end in the console log for the address of the PredictionMarket contract. It will look like this "PredictionMarket: 0xb726b385d13e298250f035303f9c17fb3430db4c".
-Copy this address and paste it into line 16 of [constants.js](https://github.com/salmanzr/betmebot/master/src/constants.js) for the Ganache network.
+Copy this address and paste it into line 16 of [constants.js](https://github.com/salmanzr/BetMeBot/blob/master/src/constants.js) for the Ganache network.
 
 Build the app:
 
@@ -42,10 +42,10 @@ Build the app:
 Start UI server:
 
 ```npm run start```
-The front-end app should start at http://localhost:3000
+The front-end app should start at http://localhost:3000. 
 Make sure you are using Google Chrome with the Metamask extension configured to use a private network at http://127.0.0.1:8545
 
-**Because the contracts for this project are also deployed on the Rinkeby testnet, you can go into [constants.js](https://github.com/salmanzr/betmebot/master/src/constants.js) and change the target live network variable to 'rinkeby' and simply call 
+**Because the contracts for this project are also deployed on the Rinkeby testnet, you can go into [constants.js](https://github.com/salmanzr/BetMeBot/blob/master/src/constants.js) and change the target live network variable to 'rinkeby' and simply call 
 'npm run start' without using Ganache or Truffle.**
 
 
